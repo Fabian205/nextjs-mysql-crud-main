@@ -6,8 +6,8 @@ export const pool = createPool({
   password: DB_PASSWORD,
   host: DB_HOST,
   port: DB_PORT,
-  database:DB_NAME
-})
+  database: DB_NAME,
+});
 
 //url generated for railway deploy
 //nextjs-mysql-crud-production.up.railway.app
@@ -31,7 +31,7 @@ export { pool }; */
 const pool = createPool({
   host: "aws.connect.psdb.cloud",
   user: "ymevsyxb4mlpibdissiv",
-  password: "pscale_pw_Iq3gkSJxzGPPlFdi26T5nc9ZFPTlResB8uIYxAojMfh",
+  
   //port: 3306,
   database: "productsdb",
   ssl: {
